@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+
+<body>
+ <header>
+        <h1>NutriTEC Proyecto Saludable</h1>
+        <nav>
+            <a href="#inicio">INICIO</a> |
+            <a href="#categorias">CATEGORIAS</a> |
+            <a href="#nosotros">NOSOTROS</a> |
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+        <hr>
+            <form>
+                <input type="search" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </form>
+        <hr>
+        
+    </header>
+    <h1>Registro de Usuario</h1>
+    <h4>Completa los siguientes campos:</h4>
+
+    <form action="/submit" method="post">
+    <label for="nombre" id="nombreLabel"> Nombre(s): </label>
+    <input type="text" id="nombreInput" placeholder="Escribe tu nombre(s)..." required>
+    </form>
+
+    <br>
+
+    <form action="/submit" method="post">
+    <label for="apellidoP" id="apellidoPLabel"> Apellido Paterno: </label>
+    <input type="text" id="apellidoPInput" placeholder="Escribe tu apellido paterno " required>
+    </form>
+
+    <br>
+
+    <form action="/submit" method="post">
+    <label for="apellidoM" id="apellidoMLabel"> Apellido Materno: </label>
+    <input type="text" id="apellidoMInput" placeholder="Escribe tu apellido materno" required>
+    </form>
+
+    <br>
+
+    <label for="fechaNac" id="fechaNac"> Fecha de Nacimiento: </label>
+    <input type="date" id="fechaNac"  required>
+    <br>
+
+    <br>
+
+    <form action="/submit" method="post"></form>
+    <label for="genero">Genero:</label>
+    <select id="genero" name="genero" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+    </select><br>
+
+    <br>
+   
+
+    <form action="/submit" method="post">
+    <label for="telefono" id="telefonoLabel">Número de Teléfono:</label>
+    <input type="tel" id="telefonoInput" placeholder="Escribe tu teléfono" pattern="[0-9]{10}" required>
+    </form>
+
+    <br>
+
+    <form action="/submit" method="post">
+    <label for="correo" id="correoLabel">Ingrese su correo:</label>
+    <input type="email" id="emailInput" placeholder="Correo electrónico" required>
+    </form>
+
+    <br>
+
+    <form action="/submit" method="post">
+    <label for="password" id="passwordLabel">Ingrese su contraseña:</label>
+    <input type="password" id="passwordInput" placeholder="Contraseña" required>
+    </form>
+
+    <br>
+
+    <form action="/submit" method="post">
+    <label for="passwordConfirm" id="passwordConfirmLabel">Confirme su contraseña:</label>
+    <input type="password" id="passwordConfirmInput" placeholder="Confirme su contraseña" required>
+    </form>
+
+    <br>
+
+    <h3>¿Desea recibir notificaciones?</h3>
+    <input type="checkbox" id="notificacionesCheckbox">
+    <label for="notificacionesCheckbox">Sí, deseo recibir notificaciones</label>
+
+    <br>
+    <br>
+
+    <button id="botonEnviar">Enviar</button>
+    <button id="restablecerBoton">Restablecer</button>
+
+    <footer>
+        <p>Redes sociales:</p>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+        <p>&copy; NutriTEC 2026</p>
+    </footer>
+
+</body>
+</html>
