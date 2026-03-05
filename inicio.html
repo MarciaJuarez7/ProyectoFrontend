@@ -11,211 +11,262 @@
 </head>
 <body class="inicio-page">
 
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#inicio">
-                <div class="logo-circle me-2">
-                    <span class="text-white fw-bold">SB</span>
-                </div>
-                <div class="brand-text">
-                    <span class="d-block h4 mb-0 fw-bold">SmartBite</span>
-                    <small class="d-block text-white" style="font-size: 0.6rem;">Proyecto Saludable</small>
-                </div>
-            </a>
-            
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navSmartBite">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#inicio">
+            <div class="logo-circle me-2">
+                <span class="text-white fw-bold">SB</span>
+            </div>
+            <div class="brand-text">
+                <span class="d-block h4 mb-0 fw-bold">SmartBite</span>
+                <small class="d-block text-white" style="font-size: 0.6rem;">Proyecto Saludable</small>
+            </div>
+        </a>
 
-            <div class="collapse navbar-collapse" id="navSmartBite">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
-                    <li class="nav-item"><a class="nav-link active" href="#inicio">INICIO</a></li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICIOS
-                        </a>
-                        <ul class="dropdown-menu border-0 shadow-sm">
-                            <li><a class="dropdown-item" href="#especialidades">Especialidades</a></li>
-                            <li><a class="dropdown-item" href="#recursos">Recursos</a></li>
-                            <li><a class="dropdown-item" href="#mas-info">Más información</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
-                </ul>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navSmartBite">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navSmartBite">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item"><a class="nav-link active" href="#inicio">INICIO</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVICIOS
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow-sm">
+                        <li><a class="dropdown-item" href="#especialidades">Especialidades</a></li>
+                        <li><a class="dropdown-item" href="#recursos">Recursos</a></li>
+                        <li><a class="dropdown-item" href="#mas-info">Más información</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#nosotros">NOSOTROS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
+            </ul>
+            <div class="d-flex justify-content-center gap-3 align-items-center">
                 <div class="d-flex justify-content-center gap-3 align-items-center">
-                    <a href="#" class="text-white h4 mb-0"><i class="bi bi-search"></i></a>
+                    <a href="#buscar.html" class="text-white h4 mb-0"><i class="bi bi-search"></i></a>
                     <a href="registro.html" class="text-white h4 mb-0"><i class="bi bi-person-circle"></i></a>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <main id="inicio" class="container mt-5 pt-5">
-        
-        <section class="row my-4 justify-content-center">
-            <div class="col-12 col-lg-10">
-                <div id="carouselAvisos" class="carousel slide aviso-banner shadow-sm" data-bs-ride="carousel">
-                    <div class="carousel-inner text-center py-5">
-                        <div class="carousel-item active">
-                            <h1 class="display-3 fw-bold text-white mb-0">AVISOS</h1>
-                            <div class="dots-indicator">.....</div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAvisos" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAvisos" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <section class="row g-4 mb-5">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 custom-card text-center shadow-sm border-0">
-                    <div class="p-3 d-flex flex-column h-100">
-                        <img src="https://tse4.mm.bing.net/th/id/OIP.pRWDM3mDtd8o8-fYWZ4pxQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded-4 mb-3" alt="Comida">
-                        <p class="small mb-4">Alimentarse bien ayuda a tener más energía, mejorar la concentración y prevenir enfermedades.</p>
-                        <a href="#" class="btn btn-smart rounded-pill w-100 mt-auto">Comida Saludable</a>
+<section id="inicio" class="container-fluid px-0 mt-5 pt-5">
+    <div id="carouselAvisos" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselAvisos" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselAvisos" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselAvisos" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop" class="d-block w-100 hero-image" alt="Comida saludable">
+                <div class="carousel-caption hero-caption">
+                    <div class="hero-content">
+                        <span class="hero-label">Nutrición personalizada</span>
+                        <h1 class="display-3 fw-bold text-white mb-3">Bienvenido a SmartBite</h1>
+                        <p class="lead text-white mb-4">Transforma tus hábitos alimenticios con nuestros planes personalizados</p>
+                        <a href="#contacto" class="btn btn-warning btn-lg rounded-pill px-4 py-2 fw-bold">
+                            <i class="bi bi-calendar-check me-2"></i>Agendar cita
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 custom-card text-center shadow-sm border-0">
-                    <div class="p-3 d-flex flex-column h-100">
-                        <img src="https://cdn.pixabay.com/photo/2020/03/06/10/45/wash-hands-4906750_1280.jpg" class="img-fluid rounded-4 mb-3" alt="Higiene">
-                        <p class="small mb-4">Los buenos hábitos de higiene previenen enfermedades y mejoran la calidad de vida.</p>
-                        <a href="#" class="btn btn-smart rounded-pill w-100 mt-auto">Hábitos de Higiene</a>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1556909211-36987daf7b4d?q=80&w=2070&auto=format&fit=crop" class="d-block w-100 hero-image" alt="Consulta nutricional">
+                <div class="carousel-caption hero-caption">
+                    <div class="hero-content">
+                        <span class="hero-label">Primera consulta</span>
+                        <h2 class="display-3 fw-bold text-white mb-3">20% de descuento</h2>
+                        <p class="lead text-white mb-4">En tu primera consulta nutricional</p>
+                        <a href="#contacto" class="btn btn-warning btn-lg rounded-pill px-4 py-2 fw-bold">
+                            <i class="bi bi-chat-dots me-2"></i>Solicitar información
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 custom-card text-center shadow-sm border-0">
-                    <div class="p-3 d-flex flex-column h-100">
-                        <img src="https://tse2.mm.bing.net/th/id/OIP.IVXGnn1mB7KMWR5Tgs3pvQHaEH?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded-4 mb-3" alt="Prevención">
-                        <p class="small mb-4">La prevención es la mejor forma de cuidar la salud. Revisiones médicas ayudan a evitar enfermedades.</p>
-                        <a href="#" class="btn btn-smart rounded-pill w-100 mt-auto">Prevención</a>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop" class="d-block w-100 hero-image" alt="Taller de cocina">
+                <div class="carousel-caption hero-caption">
+                    <div class="hero-content">
+                        <span class="hero-label">Evento destacado</span>
+                        <h2 class="display-3 fw-bold text-white mb-3">Taller de Cocina</h2>
+                        <p class="lead text-white mb-3">15 de Marzo - 6:00 PM · Cupo limitado</p>
+                        <a href="PDF/INFORMACION_TALLER_SMARTBITE_2026.pdf" class="btn btn-warning btn-lg rounded-pill px-4 py-2 fw-bold">
+                            <i class="bi bi-info-circle me-2"></i>Más información
+                        </a>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card h-100 custom-card text-center shadow-sm border-0">
-                    <div class="p-3 d-flex flex-column h-100">
-                        <img src="https://tse3.mm.bing.net/th/id/OIP.3C9Iakt9KjMeKgDQGyZ8xwHaGL?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded-4 mb-3" alt="Salud Física">
-                        <p class="small mb-4">Mantener el cuerpo activo fortalece el corazón, los músculos y mejora el estado de ánimo.</p>
-                        <a href="#" class="btn btn-smart rounded-pill w-100 mt-auto">Salud Física</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="especialidades" class="row g-4 my-5">
-            <div class="col-12">
-                <h2 class="mb-4">Especialidades</h2>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card h-100 custom-card shadow-sm border-0 p-3">
-                    <h5 class="text-center fw-bold">Nutrición Clínica</h5>
-                    <p class="small text-center">Asesoramiento personalizado para pacientes con condiciones específicas.</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card h-100 custom-card shadow-sm border-0 p-3">
-                    <h5 class="text-center fw-bold">Dietas Deportivas</h5>
-                    <p class="small text-center">Planes alimenticios para mejorar el rendimiento físico.</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card h-100 custom-card shadow-sm border-0 p-3">
-                    <h5 class="text-center fw-bold">Salud Digestiva</h5>
-                    <p class="small text-center">Abordaje de trastornos gastrointestinales a través de la alimentación.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="recursos" class="row g-4 my-5 bg-light p-4 p-md-5 rounded-4 shadow-sm">
-            <div class="col-12">
-                <h2 class="mb-4">Recursos</h2>
-            </div>
-            <div class="col-12 col-md-6">
-                <ul class="list-group list-group-flush rounded shadow-sm">
-                    <li class="list-group-item"><i class="bi bi-book me-2"></i>Guía de alimentación saludable (PDF)</li>
-                    <li class="list-group-item"><i class="bi bi-play-circle me-2"></i>Videos educativos sobre higiene</li>
-                    <li class="list-group-item"><i class="bi bi-calculator me-2"></i>Calculadora de IMC</li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-6">
-                <ul class="list-group list-group-flush rounded shadow-sm">
-                    <li class="list-group-item"><i class="bi bi-apple me-2"></i>Recetario semanal</li>
-                    <li class="list-group-item"><i class="bi bi-calendar-check me-2"></i>Calendario de hábitos</li>
-                    <li class="list-group-item"><i class="bi bi-mic me-2"></i>Podcast de bienestar</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="mas-info" class="row g-4 my-5 align-items-center">
-            <div class="col-12">
-                <h2 class="mb-4 text-center text-md-start">Más información</h2>
-            </div>
-            <div class="col-12 col-md-5">
-                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop" 
-                class="img-fluid rounded-4 shadow" alt="Comida saludable">
-            </div>
-            <div class="col-12 col-md-7">
-                <p class="mb-4">Nuestro equipo de profesionales está disponible para brindarte charlas, talleres y asesoramiento personalizado. Puedes consultar dentro de la sección "Nosotros" para conocer más sobre nuestra experiencia.</p>
-                <div class="p-4 bg-white rounded-4 shadow-sm border-start border-success border-4">
-                    <p class="text-center mb-0">
-                        <strong class="h5 d-block text-success">Próximos eventos:</strong> 
-                        Reunión sobre nutrición (20/Marzo/2026)<br>
-                        Taller de cocina saludable (15/Marzo/2026)
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="nosotros" class="row g-4 my-5">
-            <div class="col-12">
-                <h2 class="mb-4">Nosotros</h2>
-            </div>
-            <div class="col-12 col-md-5 order-md-2">
-                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop" 
-                    class="img-fluid rounded-4 shadow" alt="Equipo">
-            </div>
-            <div class="col-12 col-md-7 order-md-1">
-                <p class="mb-3">SmartBite nació en 2026 con la misión de acercar la alimentación saludable a todas las personas. Pequeños cambios generan grandes resultados.</p>
-                <p class="mb-4">Somos un equipo conformado por nutricionistas, chefs y educadores físicos altamente profesionales pensando siempre en tu bienestar.</p>
-                <p class="text-center text-md-start fw-bold text-success cursor-pointer">Ver más ></p>
-            </div>
-        </section>
-
-        <section id="contacto" class="row g-4 my-5 bg-dark text-white p-4 p-md-5 rounded-4 shadow">
-            <div class="col-12 col-md-6">
-                <h2 class="mb-4 border-bottom border-success pb-2">Contacto</h2>
-                <p><i class="bi bi-envelope-fill me-2"></i> contacto@smartbite.com</p>
-                <p><i class="bi bi-telephone-fill me-2"></i> +52 868 159 0214</p>
-                <p><i class="bi bi-whatsapp me-2"></i> +52 868 578 4590</p>
-                <p><i class="bi bi-geo-alt-fill me-2"></i> Av. Pedro Cardenas, Matamoros, Tam.</p>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer-custom mt-auto py-4">
-        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
-            <div class="fw-bold h5 mb-0">© SmartBite 2026</div>
-            <div class="text-center text-md-end mt-3 mt-md-0">
-                <p class="mb-1 fw-bold">Síguenos</p>
-                <div class="h4 mb-0 d-flex gap-3 justify-content-center">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
                 </div>
             </div>
         </div>
-    </footer>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAvisos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAvisos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<main class="container mt-5">
+    <section class="row g-4 mb-5">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card custom-card shadow-sm h-100 border-0">
+                <div class="p-3 d-flex flex-column h-100">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.pRWDM3mDtd8o8-fYWZ4pxQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top img-fluid rounded-4 mb-3" style="height: 300px; object-fit: cover;" alt="Comida">
+                    <div class="card-body d-flex flex-column text-center p-3">
+                        <h5 class="card-title fw-bold">Comida Saludable</h5>
+                        <p class="card-text small mb-4 flex-grow-1">Alimentarse bien ayuda a tener más energía, mejorar la concentración y prevenir enfermedades.</p>
+                        <a href="https://www.menusaludable.net/" class="btn btn-smart rounded-pill w-100 mt-auto">Saber Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card custom-card shadow-sm h-100 border-0">
+                <div class="p-3 d-flex flex-column h-100">
+                    <img src="https://cdn.pixabay.com/photo/2020/03/06/10/45/wash-hands-4906750_1280.jpg" class="card-img-top img-fluid rounded-4 mb-3" style="height: 300px; object-fit: cover;" alt="Higiene">
+                    <div class="card-body d-flex flex-column text-center p-3">
+                        <h5 class="card-title fw-bold">Hábitos de Higiene</h5>
+                        <p class="card-text small mb-4 flex-grow-1">Los buenos hábitos de higiene previenen enfermedades y mejoran la calidad de vida.</p>
+                        <a href="https://habitosdehigieneedu.blogspot.com/" class="btn btn-smart rounded-pill w-100 mt-auto">Saber Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card custom-card shadow-sm h-100 border-0">
+                <div class="p-3 d-flex flex-column h-100">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.IVXGnn1mB7KMWR5Tgs3pvQHaEH?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top img-fluid rounded-4 mb-3" style="height: 300px; object-fit: cover;" alt="Prevención">
+                    <div class="card-body d-flex flex-column text-center p-3">
+                        <h5 class="card-title fw-bold">Prevención</h5>
+                        <p class="card-text small mb-4 flex-grow-1">La prevención es la mejor forma de cuidar la salud. Revisiones médicas ayudan a evitar enfermedades.</p>
+                        <a href="#contacto" class="btn btn-smart rounded-pill w-100 mt-auto">Saber Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card custom-card shadow-sm h-100 border-0">
+                <div class="p-3 d-flex flex-column h-100">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.3C9Iakt9KjMeKgDQGyZ8xwHaGL?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top img-fluid rounded-4 mb-3" style="height: 300px; object-fit: cover;" alt="Salud Física">
+                    <div class="card-body d-flex flex-column text-center p-3">
+                        <h5 class="card-title fw-bold">Salud Física</h5>
+                        <p class="card-text small mb-4 flex-grow-1">Mantener el cuerpo activo fortalece el corazón, los músculos y mejora el estado de ánimo.</p>
+                        <a href="https://www.significados.com/salud-fisica/" class="btn btn-smart rounded-pill w-100 mt-auto">Saber Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="especialidades" class="row g-4 my-5">
+        <div class="col-12">
+            <h2 class="mb-4">Especialidades</h2>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card h-100 custom-card shadow-sm border-0 p-3">
+                <h5 class="text-center fw-bold">Nutrición Clínica</h5>
+                <p class="small text-center">Asesoramiento personalizado para pacientes con condiciones específicas.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card h-100 custom-card shadow-sm border-0 p-3">
+                <h5 class="text-center fw-bold">Dietas Deportivas</h5>
+                <p class="small text-center">Planes alimenticios para mejorar el rendimiento físico.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card h-100 custom-card shadow-sm border-0 p-3">
+                <h5 class="text-center fw-bold">Salud Digestiva</h5>
+                <p class="small text-center">Abordaje de trastornos gastrointestinales a través de la alimentación.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="row g-4 my-5 bg-light p-4 p-md-5 rounded-4 shadow-sm">
+        <div class="col-12">
+            <h2 class="mb-4">Recursos</h2>
+        </div>
+        <div class="col-12 col-md-6">
+            <ul class="list-group list-group-flush rounded shadow-sm">
+                <li class="list-group-item"><a href="https://salud.gob.mx/unidades/cdi/documentos/5759b.pdf?bcsi_scan_eaed3a295ae33950=1" class="text-decoration-none text-dark"><i class="bi bi-book me-2"></i>Guía de alimentación saludable</a></li>
+                <li class="list-group-item"><a href="https://www.youtube.com/watch?v=rZr8geozI_s" class="text-decoration-none text-dark"><i class="bi bi-play-circle me-2"></i>Videos educativos sobre higiene</a></li>
+                <li class="list-group-item"><a href="https://www.imss.gob.mx/salud-en-linea/calculaimc" class="text-decoration-none text-dark"><i class="bi bi-calculator me-2"></i>Calculadora de IMC</a></li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-6">
+            <ul class="list-group list-group-flush rounded shadow-sm">
+                <li class="list-group-item"><a href="https://www.kiwilimon.com/compilacion/menu-semanal" class="text-decoration-none text-dark"><i class="bi bi-book me-2"></i>Recetario semanal</a></li>
+                <li class="list-group-item"><a href="https://vitalidadyestilosaludable.com/wp-content/uploads/2024/11/Calendario-de-30-dias-Estilo-Saludable.pdf" class="text-decoration-none text-dark"><i class="bi bi-calendar me-2"></i>Calendario de hábitos</a></li>
+                <li class="list-group-item"><a href="https://www.youtube.com/watch?v=o3v4m_LkRko" class="text-decoration-none text-dark"><i class="bi bi-mic me-2"></i>Podcast de bienestar</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="mas-info" class="row g-4 my-5 align-items-center">
+        <div class="col-12">
+            <h2 class="mb-4 text-center text-md-start">Más información</h2>
+        </div>
+        <div class="col-12 col-md-5">
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop" class="img-fluid rounded-4 shadow" alt="Comida saludable">
+        </div>
+        <div class="col-12 col-md-7">
+            <p class="mb-4">Nuestro equipo de profesionales está disponible para brindarte charlas, talleres y asesoramiento personalizado. Puedes consultar dentro de la sección "Nosotros" para conocer más sobre nuestra experiencia.</p>
+            <div class="p-4 bg-white rounded-4 shadow-sm border-start border-success border-4">
+                <p class="text-center mb-0">
+                    <strong class="h5 d-block text-success">Próximos eventos:</strong> 
+                    Reunión sobre nutrición (20/Marzo/2026)<br>
+                    Taller de cocina saludable (15/Marzo/2026)
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="nosotros" class="row g-4 my-5">
+        <div class="col-12">
+            <h2 class="mb-4">Nosotros</h2>
+        </div>
+        <div class="col-12 col-md-5 order-md-2">
+            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop" class="img-fluid rounded-4 shadow" alt="Equipo">
+        </div>
+        <div class="col-12 col-md-7 order-md-1">
+            <p class="mb-3">SmartBite nació en 2026 con la misión de acercar la alimentación saludable a todas las personas. Pequeños cambios generan grandes resultados.</p>
+            <p class="mb-4">Somos un equipo conformado por nutricionistas, chefs y educadores físicos altamente profesionales pensando siempre en tu bienestar.</p>
+            <a href="PDF/SOBRE_NOSOTROS.pdf" class="d-inline-block text-center text-md-start fw-bold text-success text-decoration-none">Ver más →</a>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="row g-4 my-5 bg-dark text-white p-4 p-md-5 rounded-4 shadow">
+        <div class="col-12 col-md-6">
+            <h2 class="mb-4 border-bottom border-success pb-2">Contacto</h2>
+            <p><i class="bi bi-envelope-fill me-2"></i> contacto@smartbite.com</p>
+            <p><i class="bi bi-telephone-fill me-2"></i> +52 868 159 0214</p>
+            <p><i class="bi bi-whatsapp me-2"></i> +52 868 578 4590</p>
+            <p><i class="bi bi-geo-alt-fill me-2"></i> Av. Pedro Cardenas, Matamoros, Tam.</p>
+        </div>
+    </section>
+</main>
+
+
+<footer class="footer-custom mt-auto py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="fw-bold h5 mb-0">© SmartBite 2026</div>
+        <div class="text-center text-md-end mt-3 mt-md-0">
+            <p class="mb-1 fw-bold">Síguenos</p>
+            <div class="h4 mb-0 d-flex gap-3 justify-content-center">
+                <a href="https://facebook.com" target="_blank" class="text-white"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank" class="text-white"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

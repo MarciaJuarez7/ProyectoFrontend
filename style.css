@@ -174,3 +174,52 @@ footer[id] {
 .registro-page input:valid {
     border-color: #4caf50;
 }
+/* ================= HERO ================= */
+        .hero-carousel {
+            margin-top: -1.5rem;
+        }
+        .hero-image {
+            height: 70vh;
+            min-height: 500px;
+            object-fit: cover;
+            filter: brightness(0.6);
+        }
+        .hero-caption {
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-content {
+            max-width: 800px;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 1rem;
+        }
+        .hero-label {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-weight: 700;
+            padding: 0.35rem 0.9rem;
+            border-radius: 999px;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+        }
+        @media (max-width: 768px) {
+            .hero-image {
+                height: 60vh;
+                min-height: 400px;
+            }
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+            .hero-content h2 {
+                font-size: 1.8rem;
+            }
+        }
+ 
